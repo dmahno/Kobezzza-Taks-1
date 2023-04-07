@@ -1,0 +1,58 @@
+{
+  "name": "kobezzza_task_1",
+  "version": "1.0.0",
+  "description": "Bits",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx eslint \"**/*.ts\"",
+    "start": "concurrently \"tsc index.ts\" \"node index.js\"",
+    "prettier": "prettier --config .prettierrc --write"
+  },
+   "parserOptions": {
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "__dirname",
+    "ecmaFeatures": {
+      "tsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmahno/Kobezzza-Taks-1.git"
+  },
+  "keywords": [
+    "kobezzza",
+    "Uint8Array"
+  ],
+  "author": "Dmitry M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmahno/Kobezzza-Taks-1/issues"
+  },
+  "homepage": "https://github.com/dmahno/Kobezzza-Taks-1#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "babel-jest": "^29.5.0",
+    "concurrently": "^8.0.1",
+    "eslint": "^8.37.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.5.0",
+    "prettier": "2.8.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3",
+    "@types/prettier": "^2.7.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended"
+  }
+}
