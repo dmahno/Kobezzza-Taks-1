@@ -5,15 +5,20 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
-    "allowJs": true,
-    "noImplicitAny": true,
+    "allowJs": false,
     "strict": true,
     "moduleResolution": "Node",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
   },
-  "exclude": ["node_modules", "**/*.test.*",
-    "./node_modules",
-    "./node_modules/*",
-    "./node_modules/@types/node/index.d.ts",],
+  "include": [
+    "src",
+    ".eslintrc.js",
+    "babel.config.json",
+    "./src/**/*.test.ts"
+  ],
+  "exclude": [
+    "node_modules"],
 }
+
+// Cannot write file '/Users/dmitrymorozov/Desktop/СS во фронтенд/TASK1/.eslintrc.js' because it would overwrite input file.

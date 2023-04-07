@@ -1,3 +1,3 @@
-export const bitAccessor = (a:number, b:number):number => {
-  return a + b;
+export const bitAccessor = (a: number, b: number): number => {
+  return a + b
 }
