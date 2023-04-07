@@ -15,7 +15,9 @@
     "src",
     ".eslintrc.js",
     "babel.config.json",
-    "./src/**/*.test.ts"
+    "./src/**/*.test.ts",
+    "./main.ts",
+    "jest.config.ts"
   ],
   "exclude": [
     "node_modules"],

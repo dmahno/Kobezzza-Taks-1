@@ -6,7 +6,7 @@ module.exports = {
   extends: 'standard-with-typescript',
   overrides: [
     {
-      files: ['src/**/*.test.ts']
+      files: ['./src/**/*.test.ts', './main.ts', './jest.config.ts']
     }
   ],
   parserOptions: {
@@ -15,7 +15,8 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-
   rules: {
+    semi: 'off',
+    '@typescript-eslint/semi': ['error']
   }
-}
+};
