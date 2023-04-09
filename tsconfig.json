@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
+    "outDir":"build",
     "noImplicitAny": true,
     "module": "commonjs",
     "target": "es5",

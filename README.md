@@ -35,6 +35,20 @@
 
 # Задание
 
+# ДЗ к лекции База#1
+
+## Посмотреть лекции на канале AlekOS
+
+* https://www.youtube.com/watch?v=k9wK2FThEsk
+
+* https://www.youtube.com/watch?v=qewavPO6jcA
+
+* https://www.youtube.com/watch?v=U0U8Ddx4TgE
+
+* https://www.youtube.com/watch?v=BIYiuy8WWiU
+
+* https://www.youtube.com/watch?v=kG_ipMygRUc
+
 
 ### Написать функцию, которая принимает Uint8Array и позволяет обратиться к биту конкретного элемента
 

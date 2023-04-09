@@ -6,7 +6,7 @@ module.exports = {
   extends: 'standard-with-typescript',
   overrides: [
     {
-      files: ['./src/**/*.test.ts', './main.ts', './jest.config.ts']
+      files: ['./src/**/*.test.ts', './main.ts', './jest.config.ts', './src/**/*.js']
     }
   ],
   parserOptions: {
@@ -17,6 +17,8 @@ module.exports = {
   },
   rules: {
     semi: 'off',
-    '@typescript-eslint/semi': ['error']
+    '@typescript-eslint/semi': ['error', 'always'],
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/member-delimiter-style': 'error'
   }
 };
