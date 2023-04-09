@@ -15,7 +15,7 @@ export class BitGetter {
     if (bitIndex < 0) {
       throw new Error('The bit index must be the greater or equal to 0');
     }
-    if (value !== undefined) {
+    if (value !== undefined && value !== 1 && value !== 0) {
       throw new Error('Value must be 0 or 1');
     }
   };
