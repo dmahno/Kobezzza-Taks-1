@@ -28,8 +28,8 @@ export class BitGetter {
     this.array[byteIndex] &= ~(1 << bitIndex);
   };
 
-  get (byteIndex: number, bitIndex: number, value?: number) {
-    this.handlerValidation(byteIndex, bitIndex, value);
+  get (byteIndex: number, bitIndex: number) {
+    this.handlerValidation(byteIndex, bitIndex);
     return +(this.array[byteIndex] & (1 << bitIndex)) === 0 ? 0 : 1;
   };
 
